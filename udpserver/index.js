@@ -52,7 +52,7 @@ module.exports = {
         setTimeout(function () {
             // server.close();
             //sending msg
-            server.send('Hello World!', 0, 1280, 6100, '127.0.0.1', function (error) {
+            server.send('Hello World!', 0, 1280, 6100, '192.168.29.172', function (error) {
                 if (error) {
                     client.close();
                 } else {
